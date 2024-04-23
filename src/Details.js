@@ -15,7 +15,7 @@ export default function Details(props) {
       .then(res => res.json())
       .then(res => setData(res))
       .catch(err => console.log(err));
-      console.log(res)
+      
   }, []);
 
   const Data = ({title, value}) => (
@@ -39,6 +39,7 @@ export default function Details(props) {
       />
       <View
         style={{
+          marginTop:10,
           position: 'absolute',
           paddingVertical: 20,
           paddingHorizontal: 10,

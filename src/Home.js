@@ -70,7 +70,7 @@ export default function Home(props) {
         <View style={{paddingHorizontal: 20, marginTop: 80}}>
           <Text style={{fontSize: 40, color: 'white'}}>Hello Mohammad Ubaid Mir</Text>
           <Text style={{color: 'white', fontSize: 22, fontWeight: 'bold'}}>
-            Search the city by the name
+            Search by City name
           </Text>
           <View
             style={{
